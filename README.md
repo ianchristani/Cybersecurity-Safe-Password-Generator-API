@@ -11,3 +11,7 @@ the body request should have:
   "havesigns": optional,
   "havecapitalletters": optional
 }
+
+
+It is deployed on AWS (endpoint): http://3.82.246.93/
+Its documentation: http://3.82.246.93/docs
