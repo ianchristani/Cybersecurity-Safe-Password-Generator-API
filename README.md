@@ -13,5 +13,5 @@ the body request should have:
 }
 
 
-It is deployed on AWS (endpoint): 3.82.246.93/safepassword
+It is deployed on AWS (endpoint): http://3.82.246.93/safepassword
 Its documentation: http://3.82.246.93/docs
