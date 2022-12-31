@@ -22,7 +22,17 @@ class Info(BaseModel):
     havesigns: Optional[bool]=None
     havecapitalletters: Optional[bool]=None
 
+
 # get method
+@safepssw.get('/')
+def get_password():
+    return {"message": "Welcome to Safe Password Generator",
+        "instructions": "please check the endpoint and body request content to use th API",
+        "doc link": "http://3.82.246.93/docs"
+    }
+
+
+# get method to use the API
 @safepssw.get('/safepassword')
 def get_password(inf: Info):
     # centralizing the choices
