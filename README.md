@@ -12,6 +12,6 @@ the body request should have:
   "havecapitalletters": optional
 }
 
-
-It is deployed on AWS (endpoint): http://54.243.5.214/safepassword
+It is deployed on AWS: http://54.243.5.214/
+Endpoint: http://54.243.5.214/safepassword
 Its documentation: http://54.243.5.214/docs
