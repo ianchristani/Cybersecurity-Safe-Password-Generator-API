@@ -4,7 +4,7 @@ API created using FastAPI to generate safe passwords based on users' choice
 the body request should have:
 
 {\
-  &nbsp;&nbsp;&nbsp;&nbsp;"caracterlen": ninimum 8,\
+  &nbsp;&nbsp;&nbsp;&nbsp;"caracterlen": minimum 8,\
   &nbsp;&nbsp;&nbsp;&nbsp;"havenumbers": optional,\
   &nbsp;&nbsp;&nbsp;&nbsp;"haveletters": optional,\
   &nbsp;&nbsp;&nbsp;&nbsp;"havesymbols": optional,\
