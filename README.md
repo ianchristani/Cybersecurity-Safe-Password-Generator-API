@@ -4,12 +4,12 @@ API created using FastAPI to generate safe passwords based on users' choice
 the body request should have:
 
 {\
-  "caracterlen": ninimum 8,\
-  "havenumbers": optional,\
-  "haveletters": optional,\
-  "havesymbols": optional,\
-  "havesigns": optional,\
-  "havecapitalletters": optional\
+  &nbsp;&nbsp;&nbsp;&nbsp;"caracterlen": ninimum 8,\
+  &nbsp;&nbsp;&nbsp;&nbsp;"havenumbers": optional,\
+  &nbsp;&nbsp;&nbsp;&nbsp;"haveletters": optional,\
+  &nbsp;&nbsp;&nbsp;&nbsp;"havesymbols": optional,\
+  &nbsp;&nbsp;&nbsp;&nbsp;"havesigns": optional,\
+  &nbsp;&nbsp;&nbsp;&nbsp;"havecapitalletters": optional\
 }
 
 It is deployed on AWS: http://54.243.5.214/ \
