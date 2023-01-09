@@ -14,4 +14,4 @@ the body request should have:
 
 It is deployed on AWS: http://54.243.5.214/ \
 Endpoint: http://54.243.5.214/safepassword \
-Its documentation: http://54.243.5.214/docs \
+Its documentation: http://54.243.5.214/docs 
