@@ -7,7 +7,7 @@ The body request should have:
 
 The image shows a test in Postman
 
-The minimum lenght for a password is 8!!!
+The minimum length for a password is 8!!!
 
 
 It is deployed on AWS: http://54.243.5.214/ \
