@@ -1,5 +1,8 @@
 # Cybersecurity-Safe-Password-Generator
-API created using FastAPI to generate safe passwords based on users' choice
+API created using FastAPI to generate safe passwords based on users' choice.
+
+Stop using silly and obvious passwords, for your safety use something out of the box!
+Just make a JSON request to the end point and get the generated password for your needs.
 
 The body request should have:
 
