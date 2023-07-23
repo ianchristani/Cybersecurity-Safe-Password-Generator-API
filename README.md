@@ -12,7 +12,11 @@ The image shows a test in Postman
 
 The minimum length for a password is 8!!!
 
-
-It is deployed on AWS: http://54.243.5.214/ \
+In this repository you will find two different versions:
+1. Deployed on AWS in a EC2 (no longer available):
 Endpoint: http://54.243.5.214/safepassword \
-Its documentation: http://54.243.5.214/docs 
+Documentation: http://54.243.5.214/docs
+
+3. Deployed on AWS in Lambda:
+Endpoint:
+Documentation
