@@ -28,7 +28,7 @@ class Info(BaseModel):
 def get_password():
     return {"message": "Welcome to Safe Password Generator",
         "instructions": "please check the endpoint and body request content to use th API",
-        "doc link": "http://3.82.246.93/docs"
+        "doc link": "http:// /docs"
     }
 
 
