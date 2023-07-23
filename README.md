@@ -17,6 +17,6 @@ In this repository you will find two different versions:
 Endpoint: http://54.243.5.214/safepassword \
 Documentation: http://54.243.5.214/docs \
 
-3. Deployed on AWS in Lambda:
+3. Deployed on AWS in Lambda: \
 Endpoint: \
 Documentation: \
