@@ -11,12 +11,12 @@ The body request should have:
 The image shows a test in Postman, but in the body you should provide: 
 
 { \
-&nbsp;&nbsp;&nbsp;&nbsp;"caracterlen":8, \
-&nbsp;&nbsp;&nbsp;&nbsp;"havenumbers":true, \
-&nbsp;&nbsp;&nbsp;&nbsp;"haveletters":true, \
-&nbsp;&nbsp;&nbsp;&nbsp;"havesymbols":true, \
-&nbsp;&nbsp;&nbsp;&nbsp;"havesigns":true, \
-&nbsp;&nbsp;&nbsp;&nbsp;"havecapitalletters":true\
+&nbsp;&nbsp;&nbsp;&nbsp;"caracterlen": 8, \
+&nbsp;&nbsp;&nbsp;&nbsp;"havenumbers": true, \
+&nbsp;&nbsp;&nbsp;&nbsp;"haveletters": true, \
+&nbsp;&nbsp;&nbsp;&nbsp;"havesymbols": true, \
+&nbsp;&nbsp;&nbsp;&nbsp;"havesigns": true, \
+&nbsp;&nbsp;&nbsp;&nbsp;"havecapitalletters": true\
 } \
 
 The minimum length for a password is 8 and the other parameters are optional.
