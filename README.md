@@ -22,7 +22,7 @@ The image shows a test in Postman, but in the body you should provide:
 The minimum length for a password is 8 and the other parameters are optional.
 
 In this repository you will find two different versions:
-1. Deployed on AWS in a EC2 (no longer available): \
+1. Deployed on AWS in a EC2 (no longer available to use): \
 Endpoint: http://54.243.5.214/safepassword \
 Documentation: http://54.243.5.214/docs \
 
