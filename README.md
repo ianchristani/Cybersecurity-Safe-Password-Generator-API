@@ -11,11 +11,11 @@ The body request should have:
 The image shows a test in Postman, but in the body you should provide: \
 
 { \
-"caracterlen":8, \
-"havenumbers":true, \
-"haveletters":true, \
-"havesymbols":true, \
-"havesigns":true, \
+&nbsp;&nbsp;&nbsp;&nbsp;"caracterlen":8, \
+&nbsp;&nbsp;&nbsp;&nbsp;"havenumbers":true, \
+&nbsp;&nbsp;&nbsp;&nbsp;"haveletters":true, \
+&nbsp;&nbsp;&nbsp;&nbsp;"havesymbols":true, \
+&nbsp;&nbsp;&nbsp;&nbsp;"havesigns":true, \
 &nbsp;&nbsp;&nbsp;&nbsp;"havecapitalletters":true\
 } \
 
