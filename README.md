@@ -8,7 +8,7 @@ The body request should have:
 
 ![example image](./example-spg.png)
 
-The image shows a test in Postman, but in the body you should provide: \
+The image shows a test in Postman, but in the body you should provide: 
 
 { \
 &nbsp;&nbsp;&nbsp;&nbsp;"caracterlen":8, \
@@ -19,7 +19,7 @@ The image shows a test in Postman, but in the body you should provide: \
 &nbsp;&nbsp;&nbsp;&nbsp;"havecapitalletters":true\
 } \
 
-The minimum length for a password is 8!!!
+The minimum length for a password is 8 and the other parameters are optional.
 
 In this repository you will find two different versions:
 1. Deployed on AWS in a EC2 (no longer available): \
