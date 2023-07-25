@@ -30,7 +30,7 @@ class Info(BaseModel):
 def get_password():
     return {"message": "Welcome to Safe Password Generator",
         "instructions": "please check the endpoint and body request content to use th API",
-        "doc link": "http:// /docs"
+        "doc link": "https://eer6p533griarwyetgzb5edmmu0bvdzr.lambda-url.eu-north-1.on.aws/docs"
     }
 
 
