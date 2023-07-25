@@ -24,8 +24,8 @@ The minimum length for a password is 8 (as a good practice) and the other parame
 In this repository you will find two different versions:
 1. Deployed on AWS in a EC2 (no longer available to use): \
 Endpoint: http://54.243.5.214/safepassword \
-Documentation: http://54.243.5.214/docs \
+Documentation: http://54.243.5.214/docs 
 
 3. Deployed on AWS in Lambda: \
 Endpoint: https://eer6p533griarwyetgzb5edmmu0bvdzr.lambda-url.eu-north-1.on.aws/safepassword \
-Documentation: https://eer6p533griarwyetgzb5edmmu0bvdzr.lambda-url.eu-north-1.on.aws/docs \
+Documentation: https://eer6p533griarwyetgzb5edmmu0bvdzr.lambda-url.eu-north-1.on.aws/docs 
