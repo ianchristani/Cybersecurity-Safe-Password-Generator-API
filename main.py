@@ -3,8 +3,28 @@ from pydantic import BaseModel
 import random
 from mangum import Mangum
 
+description = """
+API created using FastAPI to generate safe passwords based on users' choice.
+
+Stop using silly and obvious passwords, for your safety use something out of the box! 
+Just make a request to the end point and get the generated password for your needs.
+
+This API was builded thinking to be integrated with some application relalated with
+user registration, or password changes.
+"""
+
+
 # creating the API instance
-safepssw = FastAPI()
+safepssw = FastAPI(
+    title = "Safe Password",
+    description = description,
+    version = "1.0.0",
+    contact = {
+        "name": "Ian Christani",
+        "url": "https://github.com/ianchristani",
+        "email": "ianchristani@gmail.com",
+    }
+)
 
 # adapting to AWS lambda
 handler = Mangum(safepssw)
@@ -26,7 +46,7 @@ class Info(BaseModel):
     havecapitalletters: bool = None
 
 # get method
-@safepssw.get('/')
+@safepssw.get('/', description = "Provides a general overview about the API and the Documentation link.")
 def get_password():
     return {"message": "Welcome to Safe Password Generator",
         "instructions": "please check the endpoint and body request content to use th API",
@@ -35,7 +55,7 @@ def get_password():
 
 
 # get method to use the API
-@safepssw.get('/safepassword')
+@safepssw.get('/safepassword', description = "Return the generated random password based on the user's parameters choice.")
 def get_password(inf: Info):
     # centralizing the choices
     paramToBuild = []
