@@ -1,4 +1,4 @@
-# Cybersecurity-Safe-Password-Generator
+# Cybersecurity-Safe-Password-Generator-API
 API created using FastAPI to generate safe passwords based on users' choice.
 
 Stop using silly and obvious passwords, for your safety use something out of the box!
